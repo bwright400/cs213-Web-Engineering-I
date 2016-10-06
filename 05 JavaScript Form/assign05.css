@@ -1,0 +1,40 @@
+#wrapper { 
+    width: 1400px; 
+}
+
+table, td, th { 
+    border: 1px solid black; 
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+    left: 125px;        
+}
+
+form {
+    border: 1px solid black; 
+    position: relative;
+    bottom: 40px; 
+    margin-left: 15%; 
+    margin-right: 15%;
+    padding-bottom: 20px;
+}
+
+customerInfo {
+    border: 1px solid black; 
+    text-align: center; 
+    margin-left: 200px; 
+    margin-right: 200px;
+}
+
+label.contact {
+    position: relative;
+    left: 50px;
+}
+
+label.button {
+    position: relative;
+    left: 425px;
+}
+

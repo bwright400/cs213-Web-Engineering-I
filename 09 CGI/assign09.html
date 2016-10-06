@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Mortgage Calculator</title>
+    <style>
+        form {
+            font-size: 25px;
+            border: 70px solid navy;
+            margin-left: 20%;
+            margin-right: 20%;
+            padding-top: 60px;
+            padding-bottom: 60px;
+            background-color: turquoise;
+            text-align: center; 
+            font-family: arial; 
+            font-style: italic;
+        }
+
+        p.head::first-line {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+        }
+
+        #wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            width: 1425px;
+        }
+    </style>
+    <script type="text/javascript">
+ 
+        var APR;
+        var loanTerm;
+        var loanAmount;
+
+        function resetValues() {}
+
+        function setAPR() {
+            APR = document.getElementById("apr").value;
+            return APR;
+        }
+
+        function setTerm() {
+            loanTerm = document.getElementById("term").value;
+            return loanTerm;
+        }
+
+        function setAmount() {
+            loanAmount = document.getElementById("amount").value;
+            return loanAmount;
+        }
+
+        function checkItem(item) {
+            if (item) {
+                item.style.background="green";
+            }
+            else {
+                item.style.background = "red";
+            }
+        }
+
+        function computeMonthlyPayment() {
+            var percent = APR * .01;
+            var firstAPR = percent / 12;
+            var secondAPR = firstAPR + 1;
+            var loanByMonth = loanTerm * 12;
+            var monthlyPayment = loanAmount * firstAPR / (1 - Math.pow(secondAPR, -loanByMonth));
+            monthlyPayment = monthlyPayment.toFixed(2);
+            document.getElementById("demo").innerHTML = monthlyPayment;
+            checkItem(percent);
+            checkItem(firstAPR);
+            checkItem(secondAPR);
+            checkItem(loanByMonth);
+        }
+    </script>
+</head>
+<body style="background-color: forestgreen">
+    <div id="wrapper">
+        <h1 style="text-align: center; border: 1px solid black; margin-left: 30%; margin-right: 30%; background-color: lightsteelblue;">
+            Mortgage Calculator
+            <p style="font-size: 23px; text-align: center;">
+                Enter the following information into the calculator. <br />
+                Hit the calculate payment button when you are ready. <br />
+                Hit the reset button to start over.
+            </p>
+        </h1>
+        <img src="money.png" style="position: absolute; top: 300px; left: 50px;" />
+        <img src="money.png" style="position: absolute; top: 300px; left: 1200px;" />
+        <form name="calculate" onsubmit="return computeMonthlyPayment()" action="http://157.201.194.254/cgi-bin/wri12012/a.out" method="post" onreset="resetValues()">
+            <p>
+                <h2>Calculate Your Mortgage</h2>
+                Annual Percent Rate: <input id="apr" name="percent" type="text" onchange="setAPR()" /> <br />
+                Loan term: <input style="margin-left: 118px;" name="loan" id="term" type="text" onchange="setTerm()" /> <br />
+                Loan Amount: <input style="margin-left: 85px" name="amount" id="amount" type="text" onchange="setAmount()" /> <br />
+                <input type="submit" style="margin-left: 250px;" value="Calculate" onfocus="checkItem();" /> <br />
+                <br /> Monthly Payment: $<output id="demo" value="$" onreset="resetValues()"></output>
+                <br /> <input type="reset" />
+            </p>
+        </form>
+        <br />
+        <div style="position: absolute; left: 3%;">
+            <p class="head" style="border: 1px solid black; margin-right: -30px;
+                background-color: deepskyblue; font-size: 20px;">
+                Mortgage Calculator Help <br />
+                A Online calculator can help you to predict <br />
+                your monthly mortgage payment with short <br />
+                information. To use this calculator, you'll <br />
+                need the following information.
+            </p>
+            <p class="head" style="border: 1px solid black; margin-right: -500px;
+                background-color: deepskyblue; font-size: 20px; position: absolute;
+                top: 1px; left: 510px;">
+                Mortgage Amount <br />
+                If you're getting a mortgage to buy a new home, you can find
+                this number by subtracting your down payment from the home's
+                price. If you're refinancing, this number will be the
+                outstanding balance on your mortgage.
+            </p>
+            <p class="head" style="border: 1px solid black; margin-right: -840px;
+                background-color: deepskyblue; font-size: 20px; position: absolute;
+                top: 1px; left: 980px;">
+                Mortgage Term(Years) <br />
+                This is the length of the mortgage you're
+                considering. If your buying a new home,
+                you may choose a mortgage loan that lasts
+                30 years.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript Form</title>
+    <meta charset="utf-8" />
+    <script type="text/javascript" src="assign05.js"></script>
+    <link rel="stylesheet" type="text/css" href="assign05.css" />
+</head>
+<body id="wrapper">
+    <h1>
+        <img src="hero-card.png" width="100%" height="300px" />
+    </h1>
+    <form name="demo" onsubmit="return onSubmit(this)"
+          onreset="document.getElementById('total').innerHTML = ''">
+        <p style="font-family: Cambria;">
+            <span style="position: relative; left: 400px; font-size: 25px;">Contact Information</span>
+            <br /><br />
+            <label for="fname" class="contact">
+                First Name:
+                <input type="text" id="fname" name="first" style="width: 200px; border: 1px solid lightblue;" />
+                &nbsp; &nbsp;
+            </label>
+            <label for="lname" class="contact">
+                Last Name:
+                <input type="text" id="lname" name="last" style="width: 200px; border: 1px solid lightblue;" />
+                &nbsp; &nbsp;
+            </label>
+            <label for="mi" class="contact">
+                MI:
+                <input type="text" id="mi" name="middle" style="width: 10px;  border: 1px solid lightblue;" />
+            </label>
+            <br /> <br />
+            <label for="address" class="contact">
+                Address:
+                <input type="text" id="address" name="add" style="width: 300px; border: 1px solid lightblue;
+                           position: relative; left: 20px;" />
+                &nbsp; &nbsp; &nbsp;
+            </label>
+            <label for="city" class="contact">
+                City:
+                <input type="text" id="city" name="town" style="width: 200px; border: 1px solid lightblue;" />
+                &nbsp; &nbsp;
+            </label>
+            <label for="st" class="contact">
+                State:
+                <input type="text" id="st" name="state" style="width: 18px;  border: 1px solid lightblue;" />
+                &nbsp; &nbsp;
+            </label>
+            <label for="zip" class="contact">
+                Zip Code:
+                <input type="text" id="zip" name="code" style="width: 40px; border: 1px solid lightblue;" />
+            </label>
+            <br /> <br />
+            <label for="phone" class="contact">
+                Telephone#
+                <input type="tel" id="phone" name="cell" style="width: 120px; border: 1px solid lightblue;"
+                       placeholder="###-###-####" />
+                &nbsp;
+            </label>
+            <br /><br />
+            <span style="position: relative; left: 400px; font-size: 20px;">
+                Select items to purchase
+            </span>
+            <div id="error" style="text-align: center; color: red;"></div>
+            <label>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Item</th>
+                        <th>Name</th>
+                        <th>Cost</th>
+                        <th></th>
+                        <th>Item</th>
+                        <th>Name</th>
+                        <th>Cost</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="lap"></label>
+                            <input type="checkbox" id="firstItem" name="lap" value="349.99"
+                                   onchange="total()" />
+                        </th>
+                        <th><img src="laptop.png" style="width: 200px; height: 200px;" /></th>
+                        <th>HP Laptop</th>
+                        <th>$349.99</th>
+                        <th>
+                            <label for="xbox"></label>
+                            <input type="checkbox" id="secondItem" name="xbox" value="399.99"
+                                   onchange="total()" />
+                        </th>
+                        <th><img src="xbox.jpg" style="width: 150px; height: 150px;" /></th>
+                        <th>XBOX One</th>
+                        <th>$399.99</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="tv"></label>
+                            <input type="checkbox" id="thirdItem" name="tv" value="1099.99"
+                                   onchange="total()" />
+                        </th>
+                        <th><img src="tv.jpg" style="width: 150px; height: 150px;" /></th>
+                        <th>television</th>
+                        <th>$1099.99</th>
+                        <th>
+                            <label for="ps4"></label>
+                            <input type="checkbox" id="fourthItem" name="ps4" value="449.99"
+                                   onchange="total()" />
+                        </th>
+                        <th><img src="ps4.jpg" style="width: 150px; height: 150px;" /></th>
+                        <th>PlayStation 4</th>
+                        <th>$449.99</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <label for="ipad"></label>
+                            <input type="checkbox" id="fifthItem" name="ipad" value="499.99"
+                                   onchange="total()" />
+                        </th>
+                        <th><img src="ipad.jpg" style="width: 150px; height: 150px;" /></th>
+                        <th>iPad Air</th>
+                        <th>$499.99</th>
+                        <th>
+                            <label for="wii"></label>
+                            <input type="checkbox" id="sixthItem" name="wii" value="299.99"
+                                   onchange="total()" />
+                        </th>
+                        <th><img src="wii.png" style="width: 150px; height: 150px;" /></th>
+                        <th>WII</th>
+                        <th>$299.99</th>
+                    </tr>
+                </table>
+            </label>
+            <div id="total" style="font-weight: bold; text-align: center"></div>
+            <br />
+            <span style="position: relative; left: 450px; font-size: 22px;">Payment</span>
+            <br />
+            <div id="noCardType" style="color: red; text-align: center"></div>
+            <br />
+            <div style="position: relative; left: 280px;" id="cardType">
+                <label for="card"></label>
+                <input type="radio" id="visa" value="Visa" />
+                <img src="visa.png" style="width: 100px; height: 65px;" /> &nbsp;
+
+                <label for="card"></label>
+                <input type="radio" id="master" value="MasterCard" />
+                <img src="mastercard.png" style="width: 100px; height: 65px;" /> &nbsp;
+
+                <label for="card"></label>
+                <input type="radio" id="express" value="AmericanExpress" />
+                <img src="AE.png" style="width: 100px; height: 65px;" />
+            </div>
+            <label for="cardNum" style="position: relative; top: 12px; left: 250px;">
+                Credit Card #
+                <input type="text" id="cardNum" placeholder="xxxxxxxxxxxxxxxx"
+                       style="border: 1px solid lightblue; width: 125px;" />
+            </label>
+            <label style="position: relative; top: 11px; left: 300px;">
+                Expiration:
+                <input type="text" id="month" placeholder="MM"
+                       style="width: 30px; border: 1px solid lightblue;" /> &nbsp;
+                <input type="text" id="year" placeholder="YYYY"
+                       style="width: 40px; border: 1px solid lightblue;" /> &nbsp;
+            </label>
+        </p>
+        <br />
+        <div id="isNot"></div>
+        <label class="button">
+            <input type="reset" id="reset" value="Reset" />
+        </label>
+        <label class="button">
+            <input type="submit" id="submit" value="Submit" />
+        </label>
+        <br />
+    </form>
+</body>
+</html>

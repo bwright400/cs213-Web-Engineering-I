@@ -1,0 +1,48 @@
+
+body {
+    position: relative;
+    top: 45px;
+    width: 1500px;
+}
+div {
+	text-align: center;
+	margin-left: 400px;
+    margin-right: 400px;
+}
+.head {
+    border: 1px solid white;
+    background-color: lightgrey;
+    padding-bottom: 40px;
+}
+
+.display {
+    border: 2px solid blue;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: black;
+    position: relative;
+    bottom: 21px;
+}
+
+input {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.button {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: royalblue;
+    border-color: lightblue;
+    border: 1px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Fax';
+}

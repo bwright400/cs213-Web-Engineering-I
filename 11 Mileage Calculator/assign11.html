@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" lang="en" />
+    <title>Mileage Calculator</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+
+    <script type="text/javascript" src="assign11.js"></script>
+    <link href="assign11.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="head">
+        <h1>Mileage Calculator</h1>
+        <div style="font-size: 20px;">
+            Enter a city and state to find the distance from another city and state
+        </div>
+        <br />
+        <label>
+            <input type="text" id="startCity" name="startCity" placeholder="Start City" /> &nbsp;
+        </label>
+        <label>
+            <input type="text" id="startState" name="startState" maxlength="2" placeholder="Start State" />
+        </label>
+        <br /> <br />
+        <label>
+            <input type="text" id="endCity" name="endCity" placeholder="End City" /> &nbsp;
+        </label>
+        <label>
+            <input type="text" id="endState" name="endState" maxlength="2" placeholder="End State" />
+        </label>
+        <br /> <br /> <br />
+        <input class="button" type="button" onclick="startValidation();" value="Distance"></input>
+    </div>
+    <br />
+    <div id="distance"></div>
+
+
+</body>
+</html>

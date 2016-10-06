@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE bsa SYSTEM "assign06.dtd">
+<bsa>
+    <council name="Occoneechee">
+        <troop troop-number="303" unitname="Vipers">
+            <scout>
+              <firstname>Jared</firstname>
+              <lastname>Hopkins</lastname>
+              <phone>919-834-7321</phone>
+              <address>
+                    <street>548 N. Payson Dr</street>
+                    <city>Knightdale</city>
+                    <state>NC</state>
+              </address>
+              <rank date-earned="6/6/14">Life</rank>
+              <meritbadge date-earned="8/14/15">Swimming</meritbadge>
+              <meritbadge date-earned="8/14/15">Hiking</meritbadge>
+              <meritbadge date-earned="8/14/15">Personal Fitness</meritbadge>            
+              <meritbadge date-earned="1/15/16">Computers</meritbadge>            
+              <meritbadge date-earned="1/15/16">Personal Management</meritbadge>         
+            </scout>
+            <scout>
+              <firstname>Tony</firstname>
+              <lastname>Wilder</lastname>
+              <phone>919-528-5465</phone>
+              <address>
+                  <street>825 N. Tessy Ct</street>
+                  <city>Raleigh</city>
+                  <state>NC</state>
+              </address>
+              <rank date-earned="2/3/16">Star</rank>
+              <meritbadge date-earned="12/15/15">First Aid</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Tyson</firstname>
+              <lastname>Wilson</lastname>
+              <phone>919-322-7563</phone>
+              <address>
+                  <street>278 S. 1st W</street>
+                  <city>Wake Forest</city>
+                  <state>NC</state>
+              </address>
+              <rank date-earned="10/22/15">Star</rank>
+              <meritbadge date-earned="2/10/15">Family Life</meritbadge>            
+              <meritbadge date-earned="2/10/15">Shotgun Shooting</meritbadge>            
+              <meritbadge date-earned="2/10/15">Rifle Shooting</meritbadge>            
+              <meritbadge date-earned="3/9/15">Citizenship in the Nation</meritbadge>            
+              <meritbadge date-earned="3/9/15">Chemistry</meritbadge>            
+              <meritbadge date-earned="12/15/15">Archeaology</meritbadge>            
+              <meritbadge date-earned="12/15/15">Fire Saftey</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Chris</firstname>
+              <lastname>Kistner</lastname>
+              <phone>919-725-8935</phone>
+              <address>
+                  <street>828 Tyler St</street>
+                  <city>Wake Forest</city>
+                  <state>NC</state>
+              </address>
+              <rank date-earned="4/30/15">Eagle</rank>
+              <meritbadge date-earned="4/2/15">Agriculture</meritbadge>            
+              <meritbadge date-earned="4/2/15">Cooking</meritbadge>            
+              <meritbadge date-earned="10/2/15">Camping</meritbadge>            
+              <meritbadge date-earned="10/2/15">Cycling</meritbadge>            
+              <meritbadge date-earned="11/18/15">Climbing</meritbadge>            
+              <meritbadge date-earned="11/18/15">Architecture</meritbadge>            
+              <meritbadge date-earned="11/18/15">Astronomy</meritbadge>            
+              <meritbadge date-earned="1/15/16">Lifesaving</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Jimmy</firstname>
+              <lastname>West</lastname>
+              <phone>919-556-1434</phone>
+              <address>
+                  <street>488 Row Dr</street>
+                  <city>Franklinton</city>
+                  <state>NC</state>
+              </address>
+              <rank date-earned="1/19/16">Tenderfoot</rank>
+              <meritbadge date-earned="6/4/15">Metalwork</meritbadge>            
+              <meritbadge date-earned="6/4/15">Photography</meritbadge>            
+            </scout>
+        </troop>
+        <troop troop-number="305" unitname="Venom">
+            <scout>
+              <firstname>Damion</firstname>
+              <lastname>Dark</lastname>
+              <phone>908-347-9954</phone>
+              <address>
+                  <street>552 W. Copper St</street>
+                  <city>Durham</city>
+                  <state>NC</state>
+              </address>
+              <rank date-earned="1/19/16">Life</rank>
+              <meritbadge date-earned="3/20/15">Kayaking</meritbadge>            
+              <meritbadge date-earned="3/20/15">Public Health</meritbadge>            
+              <meritbadge date-earned="3/20/15">Communication</meritbadge>            
+              <meritbadge date-earned="9/15/15">Hiking</meritbadge>            
+              <meritbadge date-earned="9/15/15">Fishing</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Taysom</firstname>
+              <lastname>Hill</lastname>
+              <phone>908-834-8822</phone>
+              <address>
+                  <street>699 W. Bold St</street>
+                  <city>Chapel Hill</city>
+                  <state>NC</state>
+              </address>
+              <rank date-earned="7/17/16">Tenderfoot</rank>
+              <meritbadge date-earned="6/26/15">Forestry</meritbadge>            
+              <meritbadge date-earned="6/26/15">Energy</meritbadge>            
+              <meritbadge date-earned="6/26/15">Small-Boat Sailing</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Gale</firstname>
+              <lastname>Cooper</lastname>
+              <phone>908-733-1155</phone>
+              <address>
+                  <street>237 S. Eagle Dr</street>
+                  <city>Durham</city>
+                  <state>NC</state>
+              </address>
+              <rank date-earned="6/22/15">Tenderfoot</rank>
+              <meritbadge date-earned="12/15/15">Weather</meritbadge>            
+              <meritbadge date-earned="12/15/15">Woodwork</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Robbie</firstname>
+              <lastname>Parker</lastname>
+              <phone>908-217-7719</phone>
+              <address>
+                  <street>446 S. Canary St</street>
+                  <city>Chapel Hill</city>
+                  <state>NC</state>
+              </address>
+              <rank date-earned="2/12/16">Star</rank>
+              <meritbadge date-earned="8/12/15">Whitewater</meritbadge>            
+              <meritbadge date-earned="8/12/15">Surveying</meritbadge>            
+              <meritbadge date-earned="8/12/15">Snow Sports</meritbadge>            
+              <meritbadge date-earned="5/29/15">Sculpture</meritbadge>            
+              <meritbadge date-earned="5/29/15">Electricity</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Sterling</firstname>
+              <lastname>Wright</lastname>
+              <phone>908-745-7733</phone>
+              <address>
+                  <street>1255 N. Wind St</street>
+                  <city>Durham</city>
+                  <state>NC</state>
+              </address>
+              <rank date-earned="2/12/16">Life</rank>
+              <meritbadge date-earned="2/12/16">Sustainability</meritbadge>            
+              <meritbadge date-earned="2/12/16">Emergency Prepardness</meritbadge>            
+              <meritbadge date-earned="2/12/16">Scouting Heritage</meritbadge>            
+            </scout>
+        </troop>
+    </council>
+    <council name="Grand Teton Council">
+        <troop troop-number="452" unitname="Wolves">
+            <scout>
+              <firstname>Deion</firstname>
+              <lastname>Call</lastname>
+              <phone>208-655-7256</phone>
+              <address>
+                  <street>148 S. 1st W St</street>
+                  <city>Rexburg</city>
+                  <state>ID</state>
+              </address>
+              <rank date-earned="2/3/15">Life</rank>
+              <meritbadge date-earned="3/15/14">Welding</meritbadge>            
+              <meritbadge date-earned="3/15/14">Citizenship in the World</meritbadge>            
+              <meritbadge date-earned="12/15/14">Collections</meritbadge>            
+              <meritbadge date-earned="12/15/14">Motorboating</meritbadge>            
+              <meritbadge date-earned="12/15/14">Public Speaking</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Jared</firstname>
+              <lastname>Glorius</lastname>
+              <phone>208-487-2355</phone>
+              <address>
+                  <street>328 S. 8th St</street>
+                  <city>Rexburg</city>
+                  <state>ID</state>
+              </address>
+              <rank date-earned="11/11/15">Eagle</rank>
+              <meritbadge date-earned="12/11/14">Denistry</meritbadge>            
+              <meritbadge date-earned="12/11/14">Personal Management</meritbadge>            
+              <meritbadge date-earned="12/11/14">Citizenship in the Community</meritbadge>            
+              <meritbadge date-earned="4/23/15">Citizenship in the World</meritbadge>            
+              <meritbadge date-earned="4/23/15">Salesmanship</meritbadge>            
+              <meritbadge date-earned="4/23/15">Environmental Science</meritbadge>            
+              <meritbadge date-earned="6/16/15">Lifesaving</meritbadge>            
+              <meritbadge date-earned="6/16/15">Search and Rescue</meritbadge>            
+              <meritbadge date-earned="6/16/15">Skating</meritbadge>            
+              <meritbadge date-earned="6/16/15">Geocaching</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Benjamin</firstname>
+              <lastname>Button</lastname>
+              <phone>208-552-5298</phone>
+              <address>
+                  <street>223 S. 10th st</street>
+                  <city>Rexburg</city>
+                  <state>ID</state>
+              </address>
+              <rank date-earned="3/15/14">Life</rank>
+              <meritbadge date-earned="3/17/15">Soil and Water Conservation</meritbadge>            
+              <meritbadge date-earned="7/17/15">Theater</meritbadge>            
+              <meritbadge date-earned="7/17/15">Family</meritbadge>            
+              <meritbadge date-earned="11/15/15">Stamp Collecting</meritbadge>            
+              <meritbadge date-earned="11/15/15">Robotics</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Brad</firstname>
+              <lastname>Karl</lastname>
+              <phone>208-331-5285</phone>
+              <address>
+                  <street>376 N. Pioneer St</street>
+                  <city>Rexburg</city>
+                  <state>ID</state>
+              </address>
+              <rank date-earned="6/12/15">Life</rank>
+              <meritbadge date-earned="5/5/14">Scuba Diving</meritbadge>            
+              <meritbadge date-earned="5/5/14">Swimming</meritbadge>            
+              <meritbadge date-earned="5/5/14">Drafting</meritbadge>            
+              <meritbadge date-earned="3/20/15">Crime Prevention</meritbadge>            
+              <meritbadge date-earned="3/20/15">Cooking</meritbadge>            
+              <meritbadge date-earned="3/20/15">Programming</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Taylor</firstname>
+              <lastname>Janis</lastname>
+              <phone>208-334-1199</phone>
+              <address>
+                  <street>448 W. Horizon Dr</street>
+                  <city>Rexburg</city>
+                  <state>ID</state>
+              </address>
+              <rank date-earned="7/15/14">Star</rank>
+              <meritbadge date-earned="6/2/15">Animal Science</meritbadge>            
+              <meritbadge date-earned="6/2/15">Avation</meritbadge>            
+              <meritbadge date-earned="6/2/15">Medicine</meritbadge>            
+              <meritbadge date-earned="6/2/15">Law</meritbadge>            
+            </scout>
+        </troop>
+        <troop troop-number="289" unitname="Soldiers">
+            <scout>
+              <firstname>Josh</firstname>
+              <lastname>Brown</lastname>
+              <phone>208-755-6344</phone>
+              <address>
+                  <street>224 W 1st Blvd</street>
+                  <city>Rexburg</city>
+                  <state>ID</state>
+              </address>
+              <rank date-earned="3/17/15">First Class</rank>
+              <meritbadge date-earned="3/18/15">Music</meritbadge>            
+              <meritbadge date-earned="3/18/15">Camping</meritbadge>            
+              <meritbadge date-earned="9/8/15">Swimming</meritbadge>            
+              <meritbadge date-earned="9/8/15">Metalwork</meritbadge>            
+              <meritbadge date-earned="9/8/15">Pottery</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Clark</firstname>
+              <lastname>Kent</lastname>
+              <phone>208-456-7890</phone>
+              <address>
+                  <street>228 N 1st St</street>
+                  <city>Rexburg</city>
+                  <state>ID</state>
+              </address>
+              <rank date-earned="8/15/15">Second Class</rank>
+              <meritbadge date-earned="4/12/15">Kayaking</meritbadge>            
+              <meritbadge date-earned="4/12/15">Aviation</meritbadge>            
+              <meritbadge date-earned="4/12/15">Pets</meritbadge>            
+              <meritbadge date-earned="7/15/15">Photography</meritbadge>            
+              <meritbadge date-earned="7/15/15">Orienteering</meritbadge>            
+              <meritbadge date-earned="7/15/15">Bugling</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Bruce</firstname>
+              <lastname>Wayne</lastname>
+              <phone>208-322-4512</phone>
+              <address>
+                  <street></street>
+                  <city>Rexburg</city>
+                  <state>ID</state>
+              </address>
+              <rank date-earned="4/28/15">First Class</rank>
+              <meritbadge date-earned="3/2/15">Athletics</meritbadge>            
+              <meritbadge date-earned="3/2/15">Backpacking</meritbadge>            
+              <meritbadge date-earned="3/2/15">Bird Study</meritbadge>            
+              <meritbadge date-earned="3/2/15">Art</meritbadge>            
+              <meritbadge date-earned="3/2/15">Chess</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Barry</firstname>
+              <lastname>Allen</lastname>
+              <phone>988-233-4412</phone>
+              <address>
+                  <street>225 S Caller Dr</street>
+                  <city>Rexburg</city>
+                  <state>ID</state>
+              </address>
+              <rank date-earned="5/17/15">Eagle</rank>
+              <meritbadge date-earned="8/6/14">Personal Fitness</meritbadge>            
+              <meritbadge date-earned="8/6/14">Painting</meritbadge>            
+              <meritbadge date-earned="8/6/14">Automotive Maintenance</meritbadge>            
+              <meritbadge date-earned="8/6/14">Pioneering</meritbadge>            
+              <meritbadge date-earned="9/11/15">Personal Mangagment</meritbadge>            
+              <meritbadge date-earned="9/11/15">Athletics</meritbadge>            
+              <meritbadge date-earned="9/11/15">Swimming</meritbadge>            
+              <meritbadge date-earned="9/11/15">Citizenship in the World</meritbadge>            
+              <meritbadge date-earned="11/12/15">Aviation</meritbadge>            
+              <meritbadge date-earned="11/12/15">Chemistry</meritbadge>            
+            </scout>
+            <scout>
+              <firstname>Oliver</firstname>
+              <lastname>Queen</lastname>
+              <phone>208-990-2231</phone>
+              <address>
+                  <street>221 Emerald St</street>
+                  <city>Rexburg</city>
+                  <state>ID</state>
+              </address>
+              <rank date-earned="8/8/15">Eagle</rank>
+              <meritbadge date-earned="10/15/14">Robotics</meritbadge>            
+              <meritbadge date-earned="10/15/14">Archery</meritbadge>            
+              <meritbadge date-earned="10/15/14">Wilderness Survival</meritbadge>            
+              <meritbadge date-earned="10/15/14">Entrepreneurship</meritbadge>            
+              <meritbadge date-earned="10/15/14">Sports</meritbadge>            
+              <meritbadge date-earned="10/15/14">Swimming</meritbadge>            
+              <meritbadge date-earned="10/15/14">Lifesaving</meritbadge>            
+              <meritbadge date-earned="10/15/15">Textile</meritbadge>            
+              <meritbadge date-earned="10/15/15">Traffic Saftey</meritbadge>            
+              <meritbadge date-earned="10/15/15">Space Exploration</meritbadge>            
+            </scout>
+        </troop>
+    </council>
+</bsa>
+
+

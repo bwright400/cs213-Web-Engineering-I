@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="assign08.js"></script>
+    <style>
+        div.border {
+            border: 1px solid black;
+            position: static;
+            left: 15px;
+            margin-right: 72%;
+            margin-left: 20px;
+        }
+        div.json {
+            position: absolute;
+            left: 65%;
+            top: 9%;
+        }
+        button {
+            position: relative;
+            left: 55px;
+        }
+        
+    </style>
+</head>
+<body>
+    <title>AJAX</title>
+    <h1 style="text-align: center">AJAX Assignment 08</h1>
+    <div style="position: relative; left: 150px;">
+        <h2 style="position: absolute; left: 110px; top: -20px;">The Most Population</h2>
+        <br /> <br />
+        <div style="position: relative; left: 30px;">
+            <button type="button" onclick="loadDoc('usa.txt')">USA</button>       &nbsp;
+            <button type="button" onclick="loadDoc('canada.txt')">Canada</button> &nbsp;
+            <button type="button" onclick="loadDoc('mexico.txt')">Mexico</button> &nbsp;
+            <button type="button" onclick="loadDoc('russia.txt')">Russia</button> &nbsp;
+        </div>
+        <br />
+        <div class="border">
+            <pre id="city" style="text-align: center;">Click a button to select a country</pre>
+        </div>
+    </div>
+    <div class="json" id="Json">
+        <h3 style="position: relative; left: 35px;">JSON File</h3>
+        <input type="text" id="file" style="position: relative; left: -8px; bottom: 10px;" /> <br />
+        <button id="button" onclick="loadJson()" style="text-align: center;">Load</button>
+        <div id="getData" style="position: relative; left: 200px; bottom: 75px;"></div>
+    </div>
+    
+</body>
+</html>
+
+
